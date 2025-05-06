@@ -1,0 +1,25 @@
+{
+  "name": "tsjobs",
+  "version": "1.0.0",
+  "description": "CLI typescript job board",
+  "keywords": [
+    "typescript",
+    "job",
+    "board"
+  ],
+  "homepage": "https://github.com/xargr/tsjobs#readme",
+  "bugs": {
+    "url": "https://github.com/xargr/tsjobs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xargr/tsjobs.git"
+  },
+  "license": "MIT",
+  "author": "https://x.com/typescriptjobs_",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
