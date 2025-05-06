@@ -1,3 +1,3 @@
 
 
-console.log("tsjobs comming soon...");
+console.log("tsjobs coming soon...");
