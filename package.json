@@ -1,7 +1,8 @@
 {
   "name": "tsjobs",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "CLI typescript job board",
+  "private": false,
   "keywords": [
     "typescript",
     "job",
@@ -18,8 +19,19 @@
   "license": "MIT",
   "author": "https://x.com/typescriptjobs_",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx tsx src/index.ts",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "changeset": "npx changeset",
+    "version": "npx @changesets/cli version",
+    "publish": "npx @changesets/cli publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.3",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
   }
 }
