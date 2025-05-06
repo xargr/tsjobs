@@ -1,6 +1,6 @@
 {
   "name": "tsjobs",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "CLI typescript job board",
   "private": false,
   "keywords": [
@@ -22,9 +22,13 @@
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "tsjobs": "dist/index.cjs"
+  },
   "scripts": {
     "dev": "npx tsx src/index.ts",
-    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "build": "tsup",
+    "postbuild": "chmod +x dist/index.js",
     "changeset": "npx changeset",
     "version": "npx @changesets/cli version",
     "publish": "npx @changesets/cli publish"

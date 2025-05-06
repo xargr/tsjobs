@@ -1,5 +1,23 @@
 # tsjobs
 
+## 0.0.7
+
+### Patch Changes
+
+- fix ci/cd
+
+## 0.0.6
+
+### Patch Changes
+
+- fix ci/cd
+
+## 0.0.5
+
+### Patch Changes
+
+- add bin exec
+
 ## 0.0.4
 
 ### Patch Changes
