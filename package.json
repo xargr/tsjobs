@@ -1,6 +1,6 @@
 {
   "name": "tsjobs",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "CLI typescript job board",
   "private": false,
   "keywords": [

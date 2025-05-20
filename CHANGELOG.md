@@ -1,5 +1,11 @@
 # tsjobs
 
+## 0.1.0
+
+### Minor Changes
+
+- enabled location based search
+
 ## 0.0.7
 
 ### Patch Changes
