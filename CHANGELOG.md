@@ -1,5 +1,11 @@
 # tsjobs
 
+## 0.1.1
+
+### Patch Changes
+
+- normalize location search on print
+
 ## 0.1.0
 
 ### Minor Changes

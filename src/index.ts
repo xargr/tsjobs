@@ -44,7 +44,7 @@ const main = defineCommand({
       console.log(`\n🎯 Jobs in ${selectedLocation}:\n`)
       locationJobs.forEach((job, index) => {
         console.log(`${index + 1}. 📌 ${job.title} @ ${job.company_name}`)
-        console.log(`   🌍 Location: ${job.location} ${job.remote}`)
+        console.log(`   🌍 Location: ${selectedLocation} ${job.remote}`)
         console.log(`   🔗 Apply: ${job.company_job_listing_url}`)
         console.log(`   🔎 See more: ${job.full_details}\n`)
       });
